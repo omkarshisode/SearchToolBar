@@ -15,6 +15,7 @@ import androidx.appcompat.widget.SearchView
 
 class MainActivity : AppCompatActivity() {
 
+    // TODO: Add this to your quote app
     private  lateinit var listView :ListView
     private var  arrayAdapter:ArrayAdapter<String>? =null
     private val names = listOf<String>("John", "Hello", "Vishal", "kunal", "Arun", "rupesh", "Ramdas","Shoham")
